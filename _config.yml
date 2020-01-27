@@ -2,7 +2,11 @@ title: Leon Kiefer's project site
 
 remote_theme: lorepirri/cayman-blog
 
+author:
+  twitter: Legion2Leon
 twitter:
   username: Legion2Leon
 
 header_page_refs: ['now', 'about']
+
+google_site_verification: gzea0bCYZXrELvHrSQSA-cPcpEhi_PPWvj-Pp1rJtpA
