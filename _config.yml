@@ -1,7 +1,11 @@
 title: Leon Kiefer's project site
 description: Collection of my current, past and future projects.
 
+url: "https://legion2.github.io"
 remote_theme: lorepirri/cayman-blog
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 author:
   name: Leon Kiefer
