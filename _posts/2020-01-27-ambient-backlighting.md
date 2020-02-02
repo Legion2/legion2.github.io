@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ambient backlight with Arduino and iCUE"
-description: "How I created an ambient backlight for my monitor using an Arduino and iCUE."
+tagline: "How I created an ambient backlight for my monitor using an Arduino and iCUE."
 image: /assets/images/backlight.jpg
 ---
 
