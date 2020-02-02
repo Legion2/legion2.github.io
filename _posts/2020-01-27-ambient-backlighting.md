@@ -3,12 +3,14 @@ layout: post
 title: "Ambient backlight with Arduino and iCUE"
 tagline: "How I created an ambient backlight for my monitor using an Arduino and iCUE."
 image: /assets/images/backlight.jpg
+excerpt_separator: <!--more-->
 ---
 
 ![backlight](/assets/images/backlight.jpg)
 
 Wanted a more depth and ambient experience in gaming and watching movies.
 Here is how I created a DIY backlight based on the LS100 from Corsair.
+<!--more-->
 The backlight can be used for ambient lighting and screen mirroring.
 It also syncs with all corsair products and custom lighting effects can easily be added in iCUE.
 
