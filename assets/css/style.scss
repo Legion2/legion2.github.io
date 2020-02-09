@@ -6,3 +6,67 @@
 .page-header {
     background-image: linear-gradient(120deg, #00b618, #0581d1);
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #111;
+        color: #bcbfc1;
+    }
+
+    .page-header {
+        background-image: linear-gradient(120deg, #00630d, #095a87);
+    }
+
+    .site-header {
+        border-bottom: 1px solid #181818;
+    }
+
+    .site-title,.site-title:visited,.site-title:hover {
+        color: #18b868;
+    }
+
+    .site-nav .page-link {
+        color: #18b868;
+    }
+
+    .project-name {
+        color: #ddd;
+    }
+
+    .main-content hr {
+        background-color: #181818
+    }
+    
+    .post-meta {
+        color: #a5a5a5;
+    }
+
+    .site-footer {
+        border-top: solid 1px #333
+    }
+
+    a {
+        color: #237fdb;
+    }
+
+    .site-footer .my-svg-icon {
+        color: #bcbfc1;
+        fill: #bcbfc1;
+    }
+    
+    .site-footer .my-svg-icon:hover {
+        color: #18b868;
+        fill: #18b868;
+    }
+}
+
+@media screen and (max-width: 38em) and (prefers-color-scheme: dark) {
+    .site-nav {
+        background-color: #020202;
+        border: 1px solid #181818;
+    }
+
+    .site-nav .menu-icon>svg path {
+        fill: #424242
+    }
+}
