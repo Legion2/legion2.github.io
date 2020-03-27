@@ -146,6 +146,7 @@ But now as that Arduino Builder is deprecated and Arduino CLI provides all featu
 I included one of mine Arduino Builder workflows as an example.
 
 Example GitHub Actions workflow using Arduino Builder:
+{% raw %}
 ```yaml
 on: [push, pull_request]
 name: Test
@@ -185,11 +186,13 @@ jobs:
         board: ${{ matrix.board }}
         sketch: ./examples/${{ matrix.sketch }}/${{ matrix.sketch }}.ino
 ```
+{% endraw %}
 This example workflow with Arduino Builder does basically the same as the workflow we created with Arduino CLI above, expect that this example uses the `strategy.matrix` feature.
 Realizing this workflow with Arduino CLI is straightforward.
 Create a new workflow as described above, install the same libraries and cores and compile the sketch for the given board.
 
 Example GitHub Actions workflow after migration using Arduino CLI:
+{% raw %}
 ```yaml
 on: [push, pull_request]
 name: Test
@@ -221,6 +224,7 @@ jobs:
     - name: Build ${{ matrix.sketch }} for ${{ matrix.board }}
       run: arduino-cli compile --fqbn ${{ matrix.board }} ./examples/${{ matrix.sketch }} --warnings more
 ```
+{% endraw %}
 
 In the following I will compare the Arduino Builder and Arduino CLI workflows.
 The only part that changes with the migration are the `steps` of the workflow.
