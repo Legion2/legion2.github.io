@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From Arduino Builder to Arduino CLI"
-tagline: "How you can use the official Arduino CLI in your GitHub Action workflow"
+tagline: "How you can use the official Arduino CLI in your GitHub Actions workflow"
 image: /assets/images/github-arduino-actions.png
 excerpt_separator: <!--more-->
 ---

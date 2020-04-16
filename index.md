@@ -6,6 +6,9 @@ I may not share everything here but you should get an overview over my interesti
 
 ## List of Projects
 
+- [**Open CUE CLI**](https://github.com/Legion2/open-cue-cli)
+  *Command Line Interface to change iCUE profiles*
+
 - [**Corsair Lighting Protocol**](https://github.com/Legion2/CorsairLightingProtocol)
   *Control LEDs connected to an Arduino with iCUE*
 
