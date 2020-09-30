@@ -6,8 +6,15 @@ I may not share everything here but you should get an overview over my interesti
 
 ## List of Projects
 
+- [**Swagger UI Action**](https://github.com/Legion2/swagger-ui-action)
+  *GitHub Action to automatically generate the Swagger UI from an OpenAPI document and deploy it to GitHub Pages*
+
 - [**Open CUE CLI**](https://github.com/Legion2/open-cue-cli)
   *Command Line Interface to change iCUE profiles*
+
+  It is very well documented and contains examples and features to improve the stability of the connection to iCUE.
+  Instead of the cli also a [REST API](https://github.com/Legion2/open-cue-service) or an [MQTT client](https://github.com/Legion2/open-cue-mqtt) can be used to control iCUE profiles and integrate them into other systems.
+  I use the MQTT client to control iCUE with the OpenHAB smarthome system.
 
 - [**Corsair Lighting Protocol**](https://github.com/Legion2/CorsairLightingProtocol)
   *Control LEDs connected to an Arduino with iCUE*
