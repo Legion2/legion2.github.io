@@ -6,6 +6,9 @@ I may not share everything here but you should get an overview over my interesti
 
 ## List of Projects
 
+- [**Somfy Remote Lib**](https://github.com/Legion2/Somfy_Remote_Lib)
+  *An Arduino Library to emulate a Somfy remote using a 433.42 MHz transmitter.*
+
 - [**Swagger UI Action**](https://github.com/Legion2/swagger-ui-action)
   *GitHub Action to automatically generate the Swagger UI from an OpenAPI document and deploy it to GitHub Pages*
 
