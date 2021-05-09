@@ -7,11 +7,12 @@ ref: about
 order: 0
 ---
 
-I'm Leon Kiefer a student at University of Stuttgart.
-Currently working on my masters degree in Software Engineering.
+I'm Leon Kiefer a former student at University of Stuttgart.
+I finished my masters degree in Software Engineering in 2021.
+Currently I'm working at [voize](https://voize.de/) as Technical Lead.
 
 I am passionate about working on open source projects.
-My interests are Arduino DIY projects, IoT, software architecture, enterprise applications, IT security and programming languages.
+My interests are Arduino DIY projects, IoT, software architecture, cloud-native technologies, enterprise applications, IT security and programming languages.
 
 I believe in open source, so I provide all my projects as open source on GitHub.
 Have a look at my [projects page]({{ '/' | absolute_url }}).
